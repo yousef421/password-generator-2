@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #2F3E53;
+}
+
+.title {
+    font-size: 100px;
+    font-weight: bold;
+    color: #2be375;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.app {
+    width: 400px;
+    height: 400px;
+    background-color: #1F2937;
+    text-align: center;
+    border: 5px solid #10B981;
+    border-radius: 12px;
+    margin: 50px auto;
+}
+
+.header {
+    font-family: 'Karla','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+.second-row {
+    color: #4ADF86;
+    display: block;
+    
+}
+
+.advice {
+    font-family: 'Inter','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0 0 50px;
+    color: #D5D4D8;
+    line-height: 28px;
+    font-size: 20px;
+}
+
+button {
+    padding: 9px 17px 9px 15px;
+    background: #10B981;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    color: white;
+    border: none;
+    margin: 0 0 30px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    animation-name: change-color;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+}
+
+.pass-scr {
+    display: flex;
+    justify-content: space-around;   
+}
+
+#left-pass, #right-pass {
+    background: #273549;
+    border-radius: 6px;
+    color: #10B981;
+    width: 150px;
+    height: 25px;
+    padding: 5px 10px;
+    font-size: 20px;
+}
+
+hr {
+    width: 90%;
+    height: 1px;
+    background-color: #2F3E53;
+    border: none;
+}
+
+@keyframes change-color {
+    0% {
+        background-color: #10B981;
+        color: white;
+    }
+    100% {
+        color: #10B981;
+        background-color: white;
+}
+    }
